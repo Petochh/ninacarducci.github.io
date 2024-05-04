@@ -101,12 +101,15 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
 	color: #000
+}
+.nav-link:hover{
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
@@ -224,16 +227,16 @@ form {
 
 form input {
 	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
+	background-color: white;
+	border: none;
 	height: 2.5em;
 	margin-bottom: 20px;
 }
 
 form textarea {
 	width: 100%;
-	background-color: transparent;
-	border: solid 1px;
+	background-color: white;
+	border: none;
 	height: 5em;
 	line-height: 2.5em;
 	font-size: 1.2em;
